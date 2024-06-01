@@ -4,12 +4,23 @@
 Search users in groups (and in which groups is the user) by id, username or phone number (if it's in your contacts).
 
 ## What do I need?
-To use this tool you need [Telegram API](https://my.telegram.org/) creds. After you registered a new app, edit `api_creds.ini` file accordingly.
+To use this tool you need to setup an API login for your Telegram Account over here: [Telegram API](https://my.telegram.org/) the fields you put there don't matter but make sure to copy app_id and app_hash. Best way to do this is to either create a file in this directory called .env, load them into your environment before starting fingergram or you enter it manually every time like a simpleton when asked to.
+
+```
+.
+├── .env
+└── foo.py
+```
+
+```bash
+APP_ID=<your few digit app_id>
+APP_HASH=<your long ass string hash>
+```
 
 ## Usage
 
 clone this repo
-`git clone insert nigger here && cd fingergram`
+`git clone https://github.com/Bratzmeister/fingergram.git && cd fingergram`
 
 create venv
 `python -m venv .`
