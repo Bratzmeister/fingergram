@@ -1,0 +1,5 @@
+tqdm
+python-dotenv
+pyrogram
+colorama
+tgcrypto
